@@ -1,0 +1,21 @@
+.large{
+  display: flex;
+  height: 1000px;
+  width: 1000px;
+  flex-direction: column;
+}
+div .small{
+  height: 100%;
+  width: 30%;
+  border: solid thin black;
+
+}
+.row1 , .row2 , .row3 {
+  height:30%
+}
+#c1-1 {
+
+}
+#c1-2{
+
+}
