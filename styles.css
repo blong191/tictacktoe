@@ -1,18 +1,41 @@
-.large{
-  display: flex;
-  height: 1000px;
-  width: 1000px;
-  flex-direction: column;
-}
-div .Box{
-  height: 100%;
-  width: 30%;
-  border: solid thin black;
-
-}
-#c1-1 {
-font-size: 100px;
-}
-#c1-2{
-
-}
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    p {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    button {
+        display: flex;
+        margin: auto;
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        background-color: blue;
+    }
+    
+    .large {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        flex-direction: column;
+        height: 1000px;
+        width: 1000px;
+    }
+    
+    div .Box {
+        display: flex;
+        align-content: center;
+        height: 300px;
+        width: 300px;
+        border: solid thin black;
+    }
