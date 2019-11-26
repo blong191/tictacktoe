@@ -1,29 +1,22 @@
-html,
-body {
-    height: 100%;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: white;
+.large{
+  display: flex;
+  height: 100px;
+  width: 100px;
+  flex-direction: column;
 }
+div .Box{
+  height: 100%;
+  width: 30%;
+  border: solid thin black;
 
-h1 {
-    font-size: 30px;
 }
-
-.Board {
-    display: flex;
-    height: 100%;
-    width: 100%;
+.row1 , .row2 , .row3 {
+  height:30%;
+  display:flex;
 }
+#c1-1 {
 
-.Grid {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    border: 2px black;
 }
+#c1-2{
 
-.Box {
-    height: 198px;
-    width: 198px;
-    border: 2px black;
 }
