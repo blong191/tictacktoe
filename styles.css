@@ -10,12 +10,8 @@ div .Box{
   border: solid thin black;
 
 }
-.row1 , .row2 , .row3 {
-  height:30%;
-  display:flex;
-}
 #c1-1 {
-
+font-size: 100px;
 }
 #c1-2{
 
