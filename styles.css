@@ -1,0 +1,29 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.Board {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.Grid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px black;
+}
+
+.Box {
+    height: 198px;
+    width: 198px;
+    border: 2px black;
+}
